@@ -3,14 +3,6 @@
     "description": "",
     "services": [
         {
-            "type": "endpoint",
-            "name": "jrmbot",
-            "endpoint": "http://localhost:3978/api/messages",
-            "appId": "",
-            "appPassword": "",
-            "id": "1"
-        },
-        {
             "type": "qna",
             "name": "qna",
             "kbId": "e326cafe-7f0e-4f93-873b-f50775514a1d",
