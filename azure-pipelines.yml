@@ -19,3 +19,14 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
+
+- task: AzureWebApp@1
+  inputs:
+    azureSubscription: 'Nutzungsbasierte Bezahlung(16d83f0a-a580-4693-8ff7-a0599cc381a4)'
+    appType: 'webApp'
+    appName: 'uniks-demobot'
+    deployToSlotOrASE: true
+    resourceGroupName: 'uniks'
+    slotName: 'production'
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    deploymentMethod: 'auto'
