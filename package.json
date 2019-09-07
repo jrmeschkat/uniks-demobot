@@ -1,0 +1,21 @@
+{
+  "name": "uniksbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "tsc -p . && node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/restify": "^8.4.0",
+    "botbuilder": "^4.5.3",
+    "botbuilder-ai": "^4.5.3",
+    "botframework-config": "^4.5.3",
+    "dotenv": "^8.1.0",
+    "restify": "^8.4.0",
+    "typescript": "^3.5.3"
+  }
+}

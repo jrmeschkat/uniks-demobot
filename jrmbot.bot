@@ -1,0 +1,43 @@
+{
+    "name": "jrmbot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "jrmbot",
+            "endpoint": "http://localhost:3978/api/messages",
+            "appId": "",
+            "appPassword": "",
+            "id": "1"
+        },
+        {
+            "type": "qna",
+            "name": "qna",
+            "kbId": "e326cafe-7f0e-4f93-873b-f50775514a1d",
+            "subscriptionKey": "zhpiRB00eofmzi+hH2CZGA==!hu9PdVSlKqbwgFzriN2In+yMkr3oiu7PcPw95PILh4PVIR0DukR5UKey0UG3d2eL",
+            "endpointKey": "3W5I0PxJsVmfmQH4yAzjIA==!ugvAEFffau2TyqVXTAlwDCAmn152DSXe7tKjAjU96b68S9qd5hHIbuWsu6M9or/U",
+            "hostname": "https://jrmbot-qnamaker.azurewebsites.net/qnamaker",
+            "id": "3"
+        },
+        {
+            "type": "luis",
+            "name": "luis",
+            "appId": "d06754c1-a12b-4957-81e4-f9e3d5047bba",
+            "version": "0.1",
+            "authoringKey": "4Vljv060AY1JkE3RwGpHBw==!tx6SMx8VC0j3ywGaXPi+fxqvAvBe0ROFRkWrqYsyfwXpERSSLIpFqs/ehPmFoqpH",
+            "subscriptionKey": "5Tqof1D+j7KmecIaR8hwow==!i+zTg+t3wypkl1tRBwRuQSHVYaqmDb6Hvpo/H+gy/1CL3OAHcC/i7r+dwHALmHlG",
+            "region": "westus",
+            "id": "4"
+        },
+        {
+            "type": "endpoint",
+            "name": "uniks-demobot",
+            "appId": "2232b75a-7b40-4d80-aae4-22479cb247a1",
+            "appPassword": "RHWLEYLrnqF2zAt+g0uMUw==!c1GCteZK9QXNANW8t6xBwchofyl63UKN+T7bYJz74BA=",
+            "endpoint": "https://uniks-demobot.azurewebsites.net/api/messages",
+            "id": "5"
+        }
+    ],
+    "padlock": "FDa9YLbwCvKLcSeU6utW5A==!7Ij2DDDfR9//1v/kR0JONsy0lqLgn6V99KXavJc9tpAoiZqOG0Ro1RmE7fUHx3IF",
+    "version": "2.0"
+}
