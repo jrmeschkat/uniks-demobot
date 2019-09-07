@@ -37,6 +37,10 @@ const luis = new LuisRecognizer({
 
 const echo: UniksBot = new UniksBot(qnaMaker, luis);
 
+server.get('/test', (req, res) => {
+  res.send({ hello: 'world' });
+});
+
 server.post('/api/messages', (req, res) => {
   adapter.processActivity(req, res, async context => {
     await echo.onTurn(context);
